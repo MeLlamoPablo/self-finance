@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "react-app",
+    "@z1digitalstudio/eslint-config-imports"
+  ]
+}

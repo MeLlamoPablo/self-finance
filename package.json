@@ -1,0 +1,61 @@
+{
+  "name": "self-finance",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "$": "link:./src",
+    "@chakra-ui/react": "^2.4.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/bn.js": "^5",
+    "@types/jest": "^27.0.1",
+    "@types/md5": "^2",
+    "@types/node": "^16.7.13",
+    "@types/prettier": "^2",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@web3modal/ethereum": "^2.0.0-rc.2",
+    "@web3modal/react": "^2.0.0-rc.2",
+    "@z1digitalstudio/eslint-config-imports": "^1.0.0",
+    "bn.js": "^5.2.1",
+    "ethers": "^5.7.2",
+    "framer-motion": "^8.2.4",
+    "md5": "^2.3.0",
+    "prettier": "^2.8.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.4.2",
+    "wagmi": "^0.10.6",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "packageManager": "yarn@3.3.1"
+}
